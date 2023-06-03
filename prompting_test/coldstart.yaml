@@ -1,0 +1,6 @@
+spamheader: 'spam message examples:'
+normalheader: 'normal message examples:'
+# every examples follows after above headlines with * [example] format
+
+# after all examples are shown, \n\n and then the following will be added 
+suffix: Act as a experienced programmer to processing massive text data. Please write a python function that correctly classifies the above spam messages from the normal ones. Mind that the function should not overfit to the examples above. The name of the function is <code>is_spam</code>. Not that not all the urls are for scam. Do not add the test usage after the implementation.

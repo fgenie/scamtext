@@ -1,0 +1,13 @@
+# evaldir = (Path(root)/expname).glob(f"{globpattern}{data}")
+
+root: expresults
+expname: step0_coldstart
+globpattern: gpt-4_nhop0_*x
+readdirs: null
+data: v2_2
+dataroot: data_split
+nctx_weighting: false
+
+evaldir: expresults/whole_nctxweighted
+
+

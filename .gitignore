@@ -1,0 +1,12 @@
+wandb/
+__pycache__/
+.vscode
+apikey.txt
+spam_data_v0.csv
+*.csv
+**/*.csv
+expresults/**/*.md
+data_split/*
+**/failed_test3_gpt4_*.txt
+prompting_test/**/*.py
+expresults/whole*/

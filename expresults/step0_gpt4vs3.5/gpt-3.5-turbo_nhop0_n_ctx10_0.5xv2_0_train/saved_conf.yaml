@@ -1,0 +1,10 @@
+expname: step0_coldstart
+dataset: data_split/v2_0_train.csv
+model: gpt-3.5-turbo
+example_len_threshold: 80
+random_seed: 777
+coverage: 0.5
+n_context_examples: 10
+num_hops: 0
+keep_k_solutions: 1
+sample_from: unseen

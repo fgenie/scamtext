@@ -1,0 +1,12 @@
+dbg: false
+expname: step0_coldstart
+dataset: data_split/v2_2_train.csv
+model: gpt-4
+example_len_threshold: 80
+random_seed: 777
+start_ep: 2
+coverage: 7
+n_context_examples: 10
+num_hops: 0
+keep_k_solutions: 1
+sample_from: unseen

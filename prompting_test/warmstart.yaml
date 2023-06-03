@@ -1,0 +1,8 @@
+spamheader: 'spam message examples:'
+#\n\n
+normalheader: 'normal message examples:'
+# every examples follows after above headlines with * [example] format
+
+# after all examples are shown, \n\n and then the following will be added 
+suffix: Above are the failed examples. Could you provide revision of the function you've provided to cover the shown examples while not ruining performance on the previous examples?
+# not tested # "failed" --> replace with unseen when CONF.sample_from==unseen

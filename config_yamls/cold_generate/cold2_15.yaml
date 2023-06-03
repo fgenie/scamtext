@@ -1,0 +1,34 @@
+dbg: false
+expname: step0_coldstart
+dataset: data_split/v2_2_train.csv
+model: gpt-4
+example_len_threshold: 80
+random_seed: 777
+start_ep: 0
+coverage: 5 # positive number. could be >1 (1==covered 100% of the training examples) 
+n_context_examples: 15 # 10 spams, 10 normals for generating a decision tree (=a python function that gpt4 generates) 
+
+
+num_hops: 0 # how many times the classifiers will be modified --> 0=coldstart, 1+ = warmstart
+keep_k_solutions: 1
+# when num_hops>0, how many from the most recent solution will be kept. >=1, =<num_hops+1
+sample_from: unseen # failed|unseen  # only for num_hops>0
+# unseen = sample from unseen examples from the current
+# failed = sample from failed outer-set example
+
+
+# if coldstart is true, first attempt to make decision tree is used
+# if warmstart is true, chained once more to make the code better and the later generated code is used 
+# if both are true, coldstart-code will also be used 
+# So the final number of the codes (i.e. decision-trees generated) will be coldstart.do + warmstart.do*num_hops 
+
+
+# test0 -> reimplement function naming.
+#   num_hops=0, 
+#   cycles=0.5, 1, 2, 3, 4, 5 (doing 5 cycle will do this )
+#   n_context_examples = 3, 10, merged 
+# test2 -> need to implement warmstart 
+#   num_hops=1,2, keep_k_solutions=1,2,3 (keeping all hop results will do this)
+#   sample_from=unseen, failed (keeping both will do)
+
+

@@ -1,0 +1,8 @@
+root: expresults
+expname: step0_coldstart
+globpattern: gpt-4_nhop0_n_ctx3_[2-5]*x
+readdirs: null
+data: v2_2
+dataroot: data_split
+nctx_weighting: false
+evaldir: expresults/whole_nctxweighted
