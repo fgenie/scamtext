@@ -25,7 +25,7 @@ TP = true positive (스팸인데 스팸으로 분류함)
 
 
 - [x] 코틀린 코드가 유효한지 확인: 파이썬을 그대로 하나씩 포팅한거라 실행은 불가능
-- [ ] gradio 데모 올리기
+- [x] gradio 데모 올리기
 
 <code>wrapped/</code>: 함수형태로 묶음. <code>pip install python==3.11 pandas fire</code> 후 테스트해볼 수 있음, 실행 결과는 다음과 같음
 ```bash
