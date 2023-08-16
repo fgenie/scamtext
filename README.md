@@ -1,3 +1,6 @@
+# SCAMTEXT: building scamtext filter with PAL/self-consistency prompting.
+Huggingface streamlit [demo](https://huggingface.co/spaces/fgenie/scamtext_PAL_self_consistency) is now opened!
+---- 
 ![image](https://github.com/fgenie/scamtext/assets/135444161/a86d7504-7e8d-4dad-bbdc-d478e199c199)
 
 자유인 지니가 만든 주식스팸 거르기.
